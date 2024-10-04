@@ -1,0 +1,83 @@
+.hero, .services{
+    text-align: center;
+}
+
+
+.mt{
+    margin-top: 3rem;
+}
+/* Adding a hero image */
+
+main .hero{
+    margin-bottom: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 23rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url(assets/imgs/01.jpg);
+}
+
+.hero-content{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+section{
+    height: 100vh; /* Takes up 100% of the viewport height */
+    width: 100%;
+
+    /*  Centering content */
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.block{
+    display: block;
+}
+
+.centre{
+    text-align: center;
+}
+
+/* Contact   section custom styles  */
+#contact{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+/* Generic Styles for the WhatsApp floating button */
+.whatsapp-icon {
+    position: fixed;
+    bottom: 20px;  /* Distance from the bottom */
+    right: 20px;   /* Distance from the right */
+    z-index: 1000; /* Make sure it stays on top of other elements */
+    cursor: pointer;
+  }
+  
+  .whatsapp-icon img {
+    width: 50px;   /* Adjust the size as needed */
+    height: 50px;
+    border-radius: 50%;  /* Makes the icon circular if needed */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);  /* Optional shadow */
+    transition: transform 0.3s ease;  /* Adds a hover effect */
+  }
+  
+  .whatsapp-icon img:hover {
+    transform: scale(1.1);  /* Scale up the icon slightly on hover */
+  }
+
+
+  /* The footer */
+
+
+  
+  
